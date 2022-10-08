@@ -3,7 +3,7 @@ pipepline {
    stages {
     stage('Build') {
       steps {
-        echo "build step"
+        echo 'build step'
         sleep 10
       }
     } 
