@@ -1,13 +1,11 @@
-pipepline {
-   agent any
-   stages {
-    stage('Build') {
-      steps {
-        echo 'build step'
-        sleep 10
-      }
-    } 
-  
-  }
+pipeline {
+    agent any
 
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
 }
